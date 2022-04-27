@@ -1,0 +1,33 @@
+h2
+{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 30px !important;
+    box-shadow: 5px 5px 5px gray;
+}
+.btn-warning:hover{
+    background-color: lightblue;
+}
+canvas
+{
+    margin-top: 10px;
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    background-color: white;
+    border: 1px solid white;
+}
+@keyframes example {
+    from{box-shadow:1px 1px 35px cyan;}
+    to{box-shadow:1px 1px 35px rgb(248, 4, 147);}
+}
+#copyright_footer{
+    background-color:gray;
+    color:white;
+    text-align:center;
+    line-height:3;
+    bottom:0;
+    width:100%;
+    position:fixed;
+    font-family: 'Inspiration', cursive;
+
+}
